@@ -12,7 +12,7 @@ namespace Tyuiu.SvitkovIA.Sprint0.TaskReview.V0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DataService.Calc(3, 5, 7));
+            Console.WriteLine("Находит значение данного выражения, по формуле (x + y + z) * 5 получаем = " + DataService.Calc(3, 5, 7));
             Console.ReadKey();
         }
     }
